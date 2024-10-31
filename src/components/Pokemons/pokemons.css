@@ -1,0 +1,37 @@
+.pokemons{
+  margin-top: 30px;
+}
+
+.pokemons li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  font-weight: bold;
+  transition: all 1s;
+}
+
+.pokemons li:hover{
+  background-color:rgb(127, 255, 212);
+  cursor:cell;
+}
+
+
+.pokemons li .edit{
+  margin-right: 15px;
+  color: aqua;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.pokemons li .delete{
+  margin-right: 15px;
+  color:indianred;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.pokemons li:hover .edit,
+.pokemons li:hover .delete{
+  color: black;
+}

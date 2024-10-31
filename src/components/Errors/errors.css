@@ -1,0 +1,9 @@
+.errors li{
+  text-align: center;
+  background-color: #ff000075;
+  margin: 0% 8.4%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
